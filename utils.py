@@ -33,7 +33,7 @@ def homepage2email(hrefs):
 
 def crawlPage(userChoices,base_url):
     url = base_url+userChoices
-    browser=webdriver.PhantomJS(executable_path='phantomjs-2.1.1-windows/bin/phantomjs.exe')
+    browser=webdriver.PhantomJS(executable_path='phantomjs.exe')
     browser.get(url)
 
     #you can increase the timeout number(i.e. 120)  if your network is slow
